@@ -1,0 +1,222 @@
+/* Reset some default styles for better FBI-like appearance */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* Apply a background color and text color similar to FBI */
+body {
+  background-color: #0c2340;
+  color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Style the header */
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ff0000;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  border-top: 2px solid #ff0000;
+}
+
+footer h1 {
+  font-size: 14px;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+/* Стили для прелоадера */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0400ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 101;
+}
+
+.preloader-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Скрыть прелоадер по умолчанию
+.preloader {
+  display: none;
+} */
+
+
+/* Style the navigation menu */
+nav ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #ff0000;
+  padding: 10px;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #ff0000;
+  color: #000;
+}
+
+form {
+  padding-bottom: 15px;
+}
+
+/* FBI Authorization Form Styles */
+.fbi-background {
+  background-color: #0c2340;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fbi-form {
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+  margin: 0% 0% 0% 50%;
+  border-radius: 5px;
+  background-color: #0000007e;
+}
+
+.fbi-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.fbi-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #0c2340c7;
+  color: white;
+}
+
+/* Стили для option */
+.fbi-input option {
+  background-color: rgba(0, 0, 0, 0.651); /* Цвет фона */
+  color: rgb(255, 255, 255); /* Цвет текста */
+  font-size: 16px; /* Размер шрифта */
+}
+
+
+.fbi-button {
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.fbi-button:hover {
+  background-color: #cc0000;
+}
+
+.fbi-disclaimer {
+  font-size: 12px;
+  margin-bottom: 15px;
+  background-color: rgba(0, 0, 139, 0.445);
+}
+
+/* стили для фоновой картинки */
+.fbi-background {
+  background-image: url('/BackgroundFBI.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.fbi-content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.fbi-href {
+  align-items: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  width: 40%;
+  margin: 0% 0% 0% 50%;
+}
+
+.fbi-a-button {
+  background-color: rgba(0, 0, 0, 0.493);
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.fbi-a-button:hover {
+  background-color: #ff000098;
+  color: #000;
+}

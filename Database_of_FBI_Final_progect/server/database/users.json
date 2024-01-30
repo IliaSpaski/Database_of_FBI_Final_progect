@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "123",
+      "email": "123@1.2",
+      "access_level": "level1",
+      "password": "123",
+      "oneTimeCode": "77925f61cff9867a"
+    },
+    {
+      "username": "1234",
+      "email": "132@12.1",
+      "access_level": "level1",
+      "password": "123",
+      "oneTimeCode": "8c1a11ccc5e04dda"
+    }
+  ]
+}

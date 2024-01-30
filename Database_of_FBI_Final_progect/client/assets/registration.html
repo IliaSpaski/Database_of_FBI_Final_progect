@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Добавление фавиконки -->
+    <link rel="icon" href="FaviconFBI.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="FaviconFBI.jpg" type="image/x-icon">
+    <title>FBI Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/index.js"></script>
+</head>
+
+
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <img src="/PreloadFBI.png" alt="Loading..." class="preloader-img">
+    </div>
+    <div class="fbi-background">
+        <div class="fbi-form">
+            <img src="/LogoAutFBI.png" alt="FBI Logo" class="fbi-logo">
+            <h1>Create an Account</h1>
+            <form action="/registration/registr" method="POST">
+                <input type="text" name="username" placeholder="Username" class="fbi-input">
+                <input type="email" name="email" placeholder="Email" class="fbi-input">
+                <select name="access_level" class="fbi-input">
+                    <option value="" disabled selected>Select Access Level</option>
+                    <option value="level1">Viewing information about suspects</option>
+                    <option value="level2">Access to prisoner data</option>
+                </select>
+                <input type="password" name="password" placeholder="Password" class="fbi-input">
+                <input type="password" name="confirmPassword" placeholder="Confirm Password" class="fbi-input">
+                <button type="submit" class="fbi-button">Register</button>
+            </form>
+            <p>Already have an account? <a class="fbi-a-button" href="authorization.html">Login here</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

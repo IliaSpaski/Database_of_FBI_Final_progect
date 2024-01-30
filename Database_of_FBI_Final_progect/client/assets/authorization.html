@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Добавление фавиконки -->
+    <link rel="icon" href="FaviconFBI.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="FaviconFBI.jpg" type="image/x-icon">
+    <title>FBI Authorizetion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/index.js"></script>
+</head>
+
+
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <img src="/PreloadFBI.png" alt="Loading..." class="preloader-img">
+    </div>
+    <div class="fbi-background">
+        <div class="fbi-form">
+            <img src="/LogoAutFBI.png" alt="FBI Logo" class="fbi-logo">
+            <h1>Authorization Required</h1>
+            <form action="/authorization/authorize" method="POST">
+                <input type="text" name="username" placeholder="Username" class="fbi-input">
+                <input type="password" name="password" placeholder="Password" class="fbi-input">
+                <button type="submit" class="fbi-button">Authorize</button>
+            </form>
+            <p class="fbi-disclaimer">This system is for authorized users only. Unauthorized access is prohibited and
+                subject to prosecution to the full extent of the law.</p>
+            <p class="">Don't have an account? <a class="fbi-a-button" href="registration.html">Register here</a>.</p>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

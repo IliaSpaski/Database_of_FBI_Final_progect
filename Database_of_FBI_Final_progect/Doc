@@ -1,0 +1,34 @@
+crime-database/
+  - server/
+  - project_folder
+  - server.js           # Основной файл сервера
+  - package.json        # Файл, описывающий зависимости и скрипты проекта
+  - package-lock.json   # Файл, содержащий точные версии зависимостей
+  - routes/             # Папка для маршрутов API
+    - authRoutes.js     # Маршруты для авторизации
+    - dataRoutes.js     # Маршруты для работы с данными
+    - fileRoutes.js     # Маршруты для импорта/экспорта файлов
+  - controllers/        # Папка для контроллеров
+    - authController.js # Контроллеры для авторизации
+    - dataController.js # Контроллеры для работы с данными
+    - fileController.js # Контроллеры для импорта/экспорта файлов
+  - models/             # Папка для моделей
+    - user.js           # Модель пользователя
+    - data.js           # Модель для данных о лицах
+    - file.js           # Модель для файлов
+  - middleware/         # Папка для промежуточного ПО (middleware)
+    - authMiddleware.js # Middleware для проверки аутентификации
+  - utils/              # Папка для утилит и вспомогательных функций
+    - fileHandler.js    # Утилиты для обработки файлов
+    - logger.js         # Утилиты для логирования
+    - notification.js   # Утилиты для уведомлений
+  |- client/
+  |  |- index.html
+  |  |- img/
+  |  |- styles/
+  |  |  |- main.css
+  |  |- scripts/
+  |  |  |- main.js
+  |  |- assets/
+  |  |  |- authorization.html
+  |  |  |- registration.html
